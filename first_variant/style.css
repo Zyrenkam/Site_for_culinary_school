@@ -1,0 +1,189 @@
+html {
+    background-image: url(https://podacha-blud.com/uploads/posts/2022-10/1665577894_64-podacha-blud-com-p-fud-fotografii-fon-dlya-prezentatsii-66.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.buttons{
+    height: 140px;
+    text-align: center;
+}
+
+
+
+.btn1, .btn2, .btn3 {
+    display: inline-block; 
+    width: 20%;
+    height: 40%;
+    margin: 1%;
+
+
+    background-color: rgb(104, 102, 98, 0.7);
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 150%;
+
+}
+
+.content{
+    color: antiquewhite;
+
+    width: 65%;
+    height:80%;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+
+
+
+
+}
+
+
+.under {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: antiquewhite;
+}
+
+
+p{
+    align-self: stretch;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    width:80%;
+}
+
+.links {
+    text-align: center;
+    font-size: 30px;
+}
+
+.link {
+    margin: 5%;
+    display: inline-block; 
+    width: 20%;
+    height: 50px;
+
+    margin: 1%;
+    background-size:cover;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 70%;
+
+}
+
+video {
+    width: 65%;
+    border: 5px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.networks {
+    display: inline-block;
+    background-size: cover;
+    width:80%;
+
+    height: 100px;
+    
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+}
+
+
+img {
+    width:100%;
+    height:100%;
+}
+
+
+.container{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: -1px 5px 15px black;
+}
+
+/*Area of images*/
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+    height: 10%;
+}
+
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    9%{
+        transform: translateX(0);
+    }
+    18%{
+        transform: translateX(-100%);
+    }
+    26%{
+        transform: translateX(-100%);
+    }
+    35%{
+        transform: translateX(-200%);
+    }
+    44%{
+        transform: translateX(-200%);
+    }
+    53%{
+        transform: translateX(-300%);
+    }
+    62%{
+        transform: translateX(-300%);
+    }
+    71%{
+        transform: translateX(-400%);
+    }
+    90%{
+        transform: translateX(-400%);
+    }
+    99%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

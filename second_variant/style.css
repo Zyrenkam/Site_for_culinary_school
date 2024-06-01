@@ -1,0 +1,112 @@
+html {
+    background-image: url(https://podacha-blud.com/uploads/posts/2022-10/1665577894_64-podacha-blud-com-p-fud-fotografii-fon-dlya-prezentatsii-66.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.buttons{
+    height:200px;
+    text-align: center;
+}
+
+
+
+.btn1 {
+    background-image: url(http://klublady.ru/uploads/posts/2022-02/1644629686_36-klublady-ru-p-myasnie-blyuda-foto-40.jpg);
+}
+
+.btn2 {
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2023-12/1703199896_mykaleidoscope-ru-p-myasnie-prazdnichnie-blyuda-oboi-1.jpg);
+}
+
+.btn3{
+    background-color: rgb(1, 1, 1, 0);
+}
+
+.btn1, .btn2, .btn3 {
+    display: inline-block; 
+    width: 20%;
+    height: 100%;
+    margin: 1%;
+
+    background-size:cover;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 245%;
+}
+
+.content{
+    color: antiquewhite;
+
+    width: 65%;
+    height:80%;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+}
+
+
+.under {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: antiquewhite;
+}
+
+
+.link {
+    color: antiquewhite;
+}
+
+p{
+    align-self: stretch;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    width:80%;
+}
+
+.links {
+    text-align: center;
+    font-size: 30px;
+}
+
+.link {
+    display: inline-block; 
+    width: 20%;
+    height: 20%;
+
+    margin: 1%;
+    background-size:cover;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    color: antiquewhite;
+
+}
+
+video {
+    width: 65%;
+    border: 5px solid antiquewhite;
+    border-radius: 10px;
+}
