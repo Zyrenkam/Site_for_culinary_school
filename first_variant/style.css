@@ -7,6 +7,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    scroll-behavior: smooth;
   }
 
 
@@ -29,12 +30,16 @@ h1 {
     height: 40%;
     margin: 1%;
 
-
     background-color: rgb(104, 102, 98, 0.7);
     border-radius: 10px;
     color: antiquewhite;
     font-size: 150%;
 
+    transition: transform .2s; 
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    transform: scale(1.5);
 }
 
 .content{
